@@ -24,7 +24,7 @@ Possible applications:
 - Text adventures
 - Clis for environments - How often I wished there was a cli that just walked me through setting up a dev environment
 
-## Here's a contrived example a cli tool that helps setting up a vm
+## Here's a slightly contrived example for a cli tool that helps setting up a vm
 ```
 Welcome to Project X, to cancel just press ctrl[c]
 # To keep it simple, we could do if/else statements that rely on whether a process exits with 0 or 1
