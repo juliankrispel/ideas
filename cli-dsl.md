@@ -1,4 +1,24 @@
-# I want to write CLIs like this:
+# BishBosh - A domain specific language for writing command line interfaces
+
+## Problem - Writing cli's is hard
+
+- Writing cli's is harder than it should be
+- Bash scripting sucks
+- Using languages for writing cli's kinda sucks. There's a lot going on
+
+
+## Requirements:
+
+What if it was piss-easy to write cli apps which:
+
+- conform to best practices
+- are language agnostic (run scripts in any language)
+
+## Idea: I want to write CLIs like this:
+
+In an ideal world, when I write CLIs, I want focus on content. Rather than reinventing the wheel everytime and implementing a cli with language X, I'd like to write down a script with as little syntax as possible, that describes:
+- a user flow for prompts
+- commands & documentation for commands
 
 ```
 Eyo - Welcome to this {{green}}super amazing{{/green}} cli whoop whoop!
