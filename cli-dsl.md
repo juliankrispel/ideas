@@ -1,5 +1,6 @@
 # I want to write CLIs like this:
 
+```
 Eyo - Welcome to this {{green}}super amazing{{/green}} cli whoop whoop!
   So what do you want to do?
     c - create a new app -> ./create-new-app.sh
@@ -16,3 +17,4 @@ Eyo - Welcome to this {{green}}super amazing{{/green}} cli whoop whoop!
           r - a reducer -> cp ./templates/middleware {{component}}
 
     d - deploy the app -> ./deploy.sh
+```
