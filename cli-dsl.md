@@ -18,3 +18,22 @@ Eyo - Welcome to this {{green}}super amazing{{/green}} cli whoop whoop!
 
     d - deploy the app -> ./deploy.sh
 ```
+
+Possible applications:
+- Scaffolding
+- Text adventures
+- Clis for environments - How often I wished there was a cli that just walked me through setting up a dev environment
+
+## Here's an example for setting up an environment
+```
+Welcome to Project X, let me check some stuff
+# To keep it simple, we could do if/else statements that rely on whether a process exits with 0 or 1
+
+  if -> sudo service elasticsearch status
+    Great, elasticsearch is already running
+  else
+    Looks like elasticsearch isn't running, wanna restart it?
+      - Yes -> sudo service elasticsearch restart
+      - No -> exit
+        Bye bye, have a good`un
+```
