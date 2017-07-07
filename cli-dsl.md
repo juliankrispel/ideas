@@ -1,10 +1,12 @@
 # BishBosh - A domain specific language for writing command line interfaces
 
+Disclaimer - This is an opionated braindump
+
 ## Problem - Writing cli's is hard
 
 - Writing cli's is harder than it should be
 - Bash scripting sucks
-- Using languages for writing cli's kinda sucks. There's a lot going on
+- Using languages for writing cli's kinda sucks too.
 
 
 ## Requirements:
